@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.HappySapcetoonTask" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
@@ -35,7 +35,7 @@
     <style name="image_style">
         <item name="android:layout_width">@dimen/imagesWidth</item>
         <item name="android:layout_height">@dimen/cardHeight</item>
-        <item name="android:scaleType">fitXY</item>
+        <item name="android:scaleType">centerCrop</item>
     </style>
 
     <style name="card_text_tittle_style">
