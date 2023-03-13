@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Happy Sapcetoon Task</string>
+    <string name="search_in_history">Search in history...</string>
+    <string name="friday">Friday</string>
+    <string name="conan">Conan</string>
+    <string name="action_planet">Action planet</string>
+    <string name="season_1_episode_1">Season 1 | episode 1</string>
+    <string name="_2_months_ago">2 months ago</string>
 </resources>

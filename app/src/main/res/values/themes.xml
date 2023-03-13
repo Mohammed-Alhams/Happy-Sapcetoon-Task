@@ -13,4 +13,48 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="text_view_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textBody</item>
+        <item name="android:textColor">@color/black_tittle</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+        <item name="android:layout_marginStart">@dimen/marginNormal</item>
+        <item name="android:layout_marginTop">@dimen/marginNormal</item>
+    </style>
+
+    <style name="card_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/cardHeight</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="android:layout_margin">@dimen/marginNormal</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="image_style">
+        <item name="android:layout_width">@dimen/imagesWidth</item>
+        <item name="android:layout_height">@dimen/cardHeight</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="card_text_tittle_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textTittle</item>
+        <item name="android:textColor">@color/black_tittle</item>
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:layout_marginStart">@dimen/marginCard</item>
+        <item name="android:layout_marginTop">@dimen/marginCard</item>
+    </style>
+
+    <style name="card_text_body_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textBody</item>
+        <item name="android:textColor">@color/black_body</item>
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+        <item name="android:layout_marginStart">@dimen/marginCard</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
 </resources>

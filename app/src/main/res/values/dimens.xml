@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textBody">12sp</dimen>
+    <dimen name="marginNormal">16dp</dimen>
+    <dimen name="marginCard">12dp</dimen>
+    <dimen name="cardHeight">85dp</dimen>
+    <dimen name="imagesWidth">99dp</dimen>
+    <dimen name="textTittle">14sp</dimen>
+</resources>
