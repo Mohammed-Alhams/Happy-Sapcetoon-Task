@@ -183,7 +183,7 @@
 
         <include
             layout="@layout/scroll_music_cards" />
-
+        <include layout="@layout/navigation_bar"/>
 
     </LinearLayout>
 
