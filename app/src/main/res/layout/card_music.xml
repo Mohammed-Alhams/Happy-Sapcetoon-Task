@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_radius"
+    android:paddingBottom="@dimen/midSpace"
+    android:paddingEnd="@dimen/smallSpace"
+    android:paddingStart="@dimen/smallSpace"
+    android:paddingTop="@dimen/midSpace"
+    android:layout_marginEnd="@dimen/smallSpace">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageMusic"
+        android:layout_width="@dimen/imageMusic"
+        android:layout_height="@dimen/imageMusic"
+        android:background="@drawable/background_radius"
+        android:src="@drawable/music_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/cornerImageMusic" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/smallSpace"
+        android:layout_marginTop="@dimen/midSpace"
+        android:layout_marginEnd="@dimen/smallSpace"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="center"
+        android:text="@string/textTitle"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/textTitleSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageMusic" />
+
+    <TextView
+        android:id="@+id/discripation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smallSpace"
+        android:fontFamily="@font/dm_sans"
+        android:gravity="center"
+        android:lineHeight="@dimen/spaceNormal"
+        android:text="@string/bodyText"
+        android:textColor="@color/colorBody"
+        android:textSize="@dimen/textBody"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="@id/imageMusic"
+        app:layout_constraintBottom_toBottomOf="@id/imageMusic"
+        android:src="@drawable/music" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

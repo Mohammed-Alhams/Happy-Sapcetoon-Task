@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddindNormal">16dp</dimen>
+    <dimen name="smallSpace">8dp</dimen>
+    <dimen name="imageWidth">161dp</dimen>
+    <dimen name="imageHeight">137dp</dimen>
+    <dimen name="spaceNormal">16dp</dimen>
+    <dimen name="midSpace">12dp</dimen>
+    <dimen name="textBody">12sp</dimen>
+    <dimen name="textTitleSize">14sp</dimen>
+    <dimen name="captiorSize">10sp</dimen>
+    <dimen name="imageMusic">94dp</dimen>
+    <dimen name="sizeHeaderText">16sp</dimen>
+    <dimen name="largeSpace">32dp</dimen>
+    <dimen name="sizeImagePlanet">70dp</dimen>
+    <dimen name="fillRadius">100dp</dimen>
+    <dimen name="heightChip">18dp</dimen>
+    <dimen name="widthChip">30dp</dimen>
+    <dimen name="normalRadius">16dp</dimen>
+</resources>
