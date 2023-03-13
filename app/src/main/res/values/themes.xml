@@ -13,4 +13,12 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize8pd" parent="">
+        <item name="cornerSize">100dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize16pd" parent="">
+        <item name="cornerSize">40dp</item>
+    </style>
 </resources>
