@@ -29,7 +29,6 @@
         android:layout_marginStart="@dimen/smallSpace"
         android:layout_marginTop="@dimen/midSpace"
         android:layout_marginEnd="@dimen/smallSpace"
-        android:fontFamily="@font/dm_sans_bold"
         android:gravity="center"
         android:text="@string/textTitle"
         android:textColor="@color/colorTitle"
@@ -43,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/smallSpace"
-        android:fontFamily="@font/dm_sans"
+
         android:gravity="center"
         android:lineHeight="@dimen/spaceNormal"
         android:text="@string/bodyText"
