@@ -23,7 +23,7 @@
             android:layout_width="24dp"
             android:layout_weight="1"
             android:layout_height="24dp"
-            android:src="@mipmap/srearch_icon"
+            android:src="@mipmap/home"
             android:layout_gravity="center"
             >
         </ImageView>
@@ -31,7 +31,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
-            android:src="@mipmap/live_icon"
+            android:src="@mipmap/home"
             android:layout_gravity="center"
             >
         </ImageView>
@@ -41,7 +41,7 @@
             android:layout_height="24dp"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:src="@mipmap/profile_icon">
+            android:src="@mipmap/home">
 
         </ImageView>
         

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="16dp"
+    android:layout_margin="16dp"
     android:orientation="horizontal"
     android:id="@+id/appbar">
 
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="@font/dm_sans_bold"
+        android:fontFamily="@font/"
         android:gravity="center"
         android:text="Space Toon"
         android:textColor="@color/black"

@@ -10,7 +10,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/spaceNormal"
         tools:context=".HomeActivity"
         android:orientation="vertical"
         android:background="@color/backgroundColor">
@@ -25,6 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="@dimen/spaceNormal"
+            android:layout_marginEnd="@dimen/spaceNormal"
             android:layout_marginTop="@dimen/largeSpace"
             android:layout_marginBottom="@dimen/smallSpace">
 
@@ -32,7 +33,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
+                android:fontFamily="@font/"
                 android:gravity="start"
                 android:text="@string/spacetoonPlanet"
                 android:textColor="@color/colorTitle"
@@ -47,6 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="@dimen/spaceNormal"
+            android:layout_marginEnd="@dimen/spaceNormal"
             android:layout_marginTop="@dimen/largeSpace"
             android:layout_marginBottom="@dimen/smallSpace">
 
@@ -54,7 +57,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
+                android:fontFamily="@font/"
                 android:gravity="start"
                 android:text="@string/series"
                 android:textColor="@color/colorTitle"
@@ -63,7 +66,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/dm_sans"
+                android:fontFamily="@font/"
                 android:gravity="end"
                 android:lineHeight="@dimen/spaceNormal"
                 android:text="@string/showMore"
@@ -79,6 +82,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="@dimen/spaceNormal"
+            android:layout_marginEnd="@dimen/spaceNormal"
             android:layout_marginTop="@dimen/largeSpace"
             android:layout_marginBottom="@dimen/smallSpace">
 
@@ -86,7 +91,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
+                android:fontFamily="@font/"
                 android:gravity="start"
                 android:text="@string/films"
                 android:textColor="@color/colorTitle"
@@ -95,7 +100,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/dm_sans"
+                android:fontFamily="@font/"
                 android:gravity="end"
                 android:lineHeight="@dimen/spaceNormal"
                 android:text="@string/showMore"
@@ -111,6 +116,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="@dimen/spaceNormal"
+            android:layout_marginEnd="@dimen/spaceNormal"
             android:layout_marginTop="@dimen/largeSpace"
             android:layout_marginBottom="@dimen/smallSpace">
 
@@ -118,7 +125,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
+                android:fontFamily="@font/"
                 android:gravity="start"
                 android:text="The most visited planet"
                 android:textColor="@color/colorTitle"
@@ -134,6 +141,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="@dimen/spaceNormal"
+            android:layout_marginEnd="@dimen/spaceNormal"
             android:layout_marginTop="@dimen/largeSpace"
             android:layout_marginBottom="@dimen/smallSpace">
 
@@ -141,7 +150,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
+                android:fontFamily="@font/"
                 android:gravity="start"
                 android:text="@string/spacetoon_heros"
                 android:textColor="@color/colorTitle"
@@ -149,13 +158,15 @@
 
 
         </LinearLayout>
-        <include layout="@layout/heros">
+        <include layout="@layout/heros"/>
 
-        </include>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="@dimen/spaceNormal"
+            android:layout_marginEnd="@dimen/spaceNormal"
             android:layout_marginTop="@dimen/largeSpace"
             android:layout_marginBottom="@dimen/smallSpace">
 
@@ -163,7 +174,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
+                android:fontFamily="@font/"
                 android:gravity="start"
                 android:text="@string/music"
                 android:textColor="@color/colorTitle"
@@ -172,7 +183,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/dm_sans"
+                android:fontFamily="@font/"
                 android:gravity="end"
                 android:lineHeight="@dimen/spaceNormal"
                 android:text="@string/showMore"
