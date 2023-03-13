@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    
+
     <LinearLayout
         android:layout_width="360dp"
         android:layout_height="41dp"
         android:orientation="horizontal"
-        android:layout_gravity="center"
-        >
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@mipmap/home">
+        </ImageView>
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_weight="1"
+            android:layout_height="24dp"
+            android:src="@mipmap/home"
+            android:layout_gravity="center">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:src="@mipmap/home"
+            android:layout_gravity="center">
+        </ImageView>
+
+
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
@@ -19,49 +45,22 @@
 
         </ImageView>
 
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_weight="1"
-            android:layout_height="24dp"
-            android:src="@mipmap/home"
-            android:layout_gravity="center"
-            >
-        </ImageView>
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_weight="1"
-            android:src="@mipmap/home"
-            android:layout_gravity="center"
-            >
-        </ImageView>
-
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:src="@mipmap/home">
-
-        </ImageView>
-        
-       
     </LinearLayout>
+
+
     <LinearLayout
         android:layout_width="360dp"
         android:layout_height="23dp"
         android:layout_gravity="center">
+
         <ImageView
             android:layout_width="44dp"
             android:layout_height="2dp"
             android:background="@drawable/line_under_nav"
             android:layout_gravity="center"
-            android:layout_marginStart="24dp"
-            >
+            android:layout_marginStart="24dp">
+       </ImageView>
 
-
-
-    </ImageView>
     </LinearLayout>
 
 </LinearLayout>
