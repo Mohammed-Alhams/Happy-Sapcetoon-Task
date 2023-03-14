@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Happy Sapcetoon Task</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_era_of_friends">The Era Of Friends</string>
+    <string name="_5_minute">5 minute</string>
+    <string name="sandy_bell">Sandy bell</string>
+    <string name="_2_minute">2 minute</string>
+    <string name="play_list">Play list</string>
     <string name="review">6.8</string>
     <string name="bodyText">24 Episodes</string>
     <string name="textTitle">Secret Garden</string>

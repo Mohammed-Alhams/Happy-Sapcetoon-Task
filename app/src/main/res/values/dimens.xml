@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <dimen name="paddindNormal">16dp</dimen>
     <dimen name="smallSpace">8dp</dimen>
     <dimen name="imageWidth">161dp</dimen>
@@ -18,8 +19,15 @@
     <dimen name="normalRadius">16dp</dimen>
     <dimen name="textBody">12sp</dimen>
     <dimen name="marginNormal">16dp</dimen>
-    <dimen name="marginCard">12dp</dimen>
+    <dimen name="marginLarg">24dp</dimen>
+    <dimen name="marginSmall">12dp</dimen>
+    <dimen name="marginXLarg">38dp</dimen>
+
     <dimen name="cardHeight">85dp</dimen>
     <dimen name="imagesWidth">99dp</dimen>
-    <dimen name="textTittle">14sp</dimen>
+
+    <dimen name="textBody">12sp</dimen>
+    <dimen name="textSupTittle">14sp</dimen>
+    <dimen name="textTittle">16sp</dimen>
+
 </resources>
