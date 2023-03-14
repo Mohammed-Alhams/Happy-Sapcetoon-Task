@@ -53,12 +53,10 @@
             style="@style/text_view_style"
             android:text="@string/friday" />
 
-        <LinearLayout
-            style="@style/linear_style"
-            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                style="@style/constraint_style"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -114,14 +112,9 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/linear_style"
-            android:orientation="vertical">
-
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                style="@style/constraint_style"
                 android:layout_height="match_parent">
 
                 <ImageView
@@ -174,7 +167,6 @@
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
 
         <TextView
             android:id="@+id/textView19"
@@ -182,13 +174,10 @@
             android:layout_marginTop="34dp"
             android:text="@string/_2_march_2023" />
 
-        <LinearLayout
-            style="@style/linear_style"
-            android:layout_marginTop="12dp"
-            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                style="@style/constraint_style"
                 android:layout_height="match_parent">
 
                 <ImageView
@@ -241,15 +230,10 @@
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/linear_style"
-            android:layout_marginTop="12dp"
-            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                style="@style/constraint_style"
                 android:layout_height="match_parent">
 
                 <ImageView
@@ -302,15 +286,10 @@
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/linear_style"
-            android:layout_marginTop="12dp"
-            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                style="@style/constraint_style"
                 android:layout_height="match_parent">
 
                 <ImageView
@@ -363,15 +342,10 @@
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/linear_style"
-            android:layout_marginTop="12dp"
-            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                style="@style/constraint_style"
                 android:layout_height="match_parent">
 
                 <ImageView
@@ -424,6 +398,5 @@
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
     </LinearLayout>
 </ScrollView>
