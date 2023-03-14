@@ -16,8 +16,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/marginNormal"
-            android:orientation="horizontal">
+            android:layout_marginStart="@dimen/marginNormal"
+            android:layout_marginTop="@dimen/marginNormal"
+            android:layout_marginEnd="@dimen/marginNormal">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -51,11 +52,12 @@
         <TextView
             android:id="@+id/textView"
             style="@style/text_view_style"
+            android:layout_marginTop="16dp"
             android:text="@string/friday" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                style="@style/constraint_style"
+                style="@style/constraint_card_style"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -113,7 +115,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                style="@style/constraint_style"
+                style="@style/constraint_card_style"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -177,7 +179,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                style="@style/constraint_style"
+                style="@style/constraint_card_style"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -234,7 +236,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                style="@style/constraint_style"
+                style="@style/constraint_card_style"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -291,7 +293,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                style="@style/constraint_style"
+                style="@style/constraint_card_style"
                 android:layout_height="match_parent">
 
                 <com.google.android.material.imageview.ShapeableImageView
@@ -348,7 +350,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            style="@style/constraint_style"
+            style="@style/constraint_card_style"
             android:layout_height="match_parent"
             android:layout_marginBottom="30dp">
 

@@ -21,10 +21,9 @@
         <item name="android:textColor">@color/black_tittle</item>
         <item name="android:fontFamily">@font/sourcesanspro_regular</item>
         <item name="android:layout_marginStart">@dimen/marginNormal</item>
-        <item name="android:layout_marginTop">12dp</item>
     </style>
 
-    <style name="constraint_style">
+    <style name="constraint_card_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/cardHeight</item>
         <item name="android:background">@drawable/constraint_background</item>
