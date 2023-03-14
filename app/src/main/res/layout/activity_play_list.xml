@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#F5F5F5"
+    android:scrollbars="none"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -11,40 +11,98 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
+        <View
+            android:id="@+id/image_background"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/intersect"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <View
             android:id="@+id/back_button"
-            android:layout_width="match_parent"
-            android:layout_height="440dp"
-            android:background="@drawable/intersect"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/backbutton"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
-        <View
-            android:id="@+id/view"
-            android:layout_width="match_parent"
-            android:layout_height="440dp"
-            android:background="@drawable/intersect"
+        <TextView
+            android:id="@+id/name_app_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_list"
+            android:textStyle="bold"
+            android:textColor="#DE121212"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@+id/back_button" />
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/shapeableImageView"
+            android:id="@+id/shapeableImageVie"
             android:layout_width="200dp"
             android:layout_height="200dp"
+            android:layout_marginBottom="24dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/back_button"
+            app:layout_constraintBottom_toBottomOf="@+id/image_background"
+            app:layout_constraintEnd_toEndOf="@+id/image_background"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.845"
             app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize8pd"
             app:srcCompat="@drawable/romio" />
 
 
+        <include
+            android:id="@+id/include"
+            layout="@layout/play_list_paus_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_background" />
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/play_list_item_sandy_bell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include" />
+
+        <include
+            android:id="@+id/include3"
+            layout="@layout/play_list_item_batman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+        <include
+            android:id="@+id/include4"
+            layout="@layout/play_list_item_sandy_bell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/include3"
+            app:layout_constraintStart_toStartOf="@+id/include3"
+            app:layout_constraintTop_toBottomOf="@+id/include3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
