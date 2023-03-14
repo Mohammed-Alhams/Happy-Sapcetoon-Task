@@ -72,11 +72,11 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/imageView"
                 style="@style/image_style"
-                android:src="@drawable/conan"
+                android:src="@drawable/conann"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/cornerImage" />
+                app:shapeAppearanceOverlay="@style/cornerImageCardHistory" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -156,7 +156,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/cornerImage" />
+                app:shapeAppearanceOverlay="@style/cornerImageCardHistory" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -247,7 +247,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/cornerImage" />
+                app:shapeAppearanceOverlay="@style/cornerImageCardHistory" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -326,7 +326,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/cornerImage" />
+                app:shapeAppearanceOverlay="@style/cornerImageCardHistory" />
 
             <TextView
                 android:id="@+id/textView221"
@@ -405,7 +405,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/cornerImage" />
+                app:shapeAppearanceOverlay="@style/cornerImageCardHistory" />
 
             <TextView
                 android:id="@+id/textView222"
@@ -485,7 +485,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/cornerImage" />
+                app:shapeAppearanceOverlay="@style/cornerImageCardHistory" />
 
             <TextView
                 android:id="@+id/textView223"

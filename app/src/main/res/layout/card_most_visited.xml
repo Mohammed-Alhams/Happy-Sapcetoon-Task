@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginStart="@dimen/spaceNormal"
+    android:layout_marginEnd="@dimen/spaceNormal"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/cardMostVisitedPlanet"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/background_fill_radius"
+        android:paddingBottom="@dimen/midSpace"
+        android:paddingEnd="@dimen/smallSpace"
+        android:paddingStart="@dimen/smallSpace"
+        android:paddingTop="@dimen/midSpace"
+        app:layout_constraintStart_toStartOf="@id/imagePlanet"
+        app:layout_constraintTop_toTopOf="@id/imagePlanet"
+        app:layout_constraintBottom_toBottomOf="@id/imagePlanet" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imagePlanet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/action_planet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBaseline_toBottomOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/smallSpace"
+        android:layout_marginTop="@dimen/smallSpace"
+        android:layout_marginEnd="@dimen/smallSpace"
+        android:gravity="center"
+        android:text="@string/textTitle"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/textTitleSize"
+        app:layout_constraintStart_toEndOf="@id/imagePlanet"
+        app:layout_constraintTop_toTopOf="@id/cardMostVisitedPlanet"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smallSpace"
+        android:layout_marginEnd="@dimen/smallSpace"
+        android:layout_marginBottom="@dimen/midSpace"
+        android:gravity="start"
+        android:text="@string/excitement_and_mystery_specializes_in_showcasing_fast_paced_actionseries_fighting_series_and"
+        android:textColor="@color/colorBody"
+        android:textSize="@dimen/textBody"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintEnd_toEndOf="@id/cardMostVisitedPlanet"
+        app:layout_constraintBottom_toBottomOf="@id/cardMostVisitedPlanet"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
