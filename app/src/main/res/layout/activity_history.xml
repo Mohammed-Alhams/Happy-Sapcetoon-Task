@@ -53,7 +53,6 @@
             style="@style/text_view_style"
             android:text="@string/friday" />
 
-
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 style="@style/constraint_style"
@@ -62,8 +61,8 @@
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageView"
                     style="@style/image_style"
+                    app:shapeAppearanceOverlay="@style/cornerImage"
                     android:src="@drawable/conan"
-                    app:shapeAppearanceOverlay="@style/rounded_image"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -117,9 +116,10 @@
                 style="@style/constraint_style"
                 android:layout_height="match_parent">
 
-                <ImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageView7"
                     style="@style/image_style"
+                    app:shapeAppearanceOverlay="@style/cornerImage"
                     android:src="@drawable/haidy"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -171,7 +171,7 @@
         <TextView
             android:id="@+id/textView19"
             style="@style/text_view_style"
-            android:layout_marginTop="34dp"
+            android:layout_marginTop="24dp"
             android:text="@string/_2_march_2023" />
 
 
@@ -180,9 +180,10 @@
                 style="@style/constraint_style"
                 android:layout_height="match_parent">
 
-                <ImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageView18"
                     style="@style/image_style"
+                    app:shapeAppearanceOverlay="@style/cornerImage"
                     android:src="@drawable/dragon"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -236,9 +237,10 @@
                 style="@style/constraint_style"
                 android:layout_height="match_parent">
 
-                <ImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageView181"
                     style="@style/image_style"
+                    app:shapeAppearanceOverlay="@style/cornerImage"
                     android:src="@drawable/spider"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -295,6 +297,7 @@
                 <ImageView
                     android:id="@+id/imageView182"
                     style="@style/image_style"
+                    app:shapeAppearanceOverlay="@style/cornerImage"
                     android:src="@drawable/brother"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -343,20 +346,22 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                style="@style/constraint_style"
-                android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            style="@style/constraint_style"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp">
 
-                <ImageView
-                    android:id="@+id/imageView183"
-                    style="@style/image_style"
-                    android:src="@drawable/lesa"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView183"
+                style="@style/image_style"
+                app:shapeAppearanceOverlay="@style/cornerImage"
+                android:src="@drawable/lesa"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-                <TextView
+            <TextView
                     android:id="@+id/textView223"
                     style="@style/card_text_tittle_style"
                     android:text="@string/haidy"
