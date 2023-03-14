@@ -6,7 +6,6 @@
     <dimen name="imageHeight">137dp</dimen>
     <dimen name="spaceNormal">16dp</dimen>
     <dimen name="midSpace">12dp</dimen>
-    <dimen name="textBody">12sp</dimen>
     <dimen name="textTitleSize">14sp</dimen>
     <dimen name="captiorSize">10sp</dimen>
     <dimen name="imageMusic">94dp</dimen>
@@ -17,4 +16,10 @@
     <dimen name="heightChip">18dp</dimen>
     <dimen name="widthChip">30dp</dimen>
     <dimen name="normalRadius">16dp</dimen>
+    <dimen name="textBody">12sp</dimen>
+    <dimen name="marginNormal">16dp</dimen>
+    <dimen name="marginCard">12dp</dimen>
+    <dimen name="cardHeight">85dp</dimen>
+    <dimen name="imagesWidth">99dp</dimen>
+    <dimen name="textTittle">14sp</dimen>
 </resources>
