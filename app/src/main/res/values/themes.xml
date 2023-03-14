@@ -18,13 +18,7 @@
         <item name="android:fontFamily">@font/sourcesanspro_regular</item>
     </style>
 
-    <style name="cornerImage" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopRight">0dp</item>
-        <item name="cornerSizeTopLeft">16dp</item>
-        <item name="cornerSizeBottomRight">0dp</item>
-        <item name="cornerSizeBottomLeft">16dp</item>
-    </style>
+
 
     <style name="image_style">
         <item name="android:layout_width">@dimen/imagesWidth</item>
@@ -41,4 +35,27 @@
         <item name="android:textColor">@color/black_body</item>
         <item name="android:fontFamily">@font/sourcesanspro_regular</item>
     </style>
+
+
+    <style name="cornerImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+    </style>
+    <style name="cornerImage.cornerImageCardsHome" parent="">
+        <item name="cornerSizeTopRight">@dimen/normalRadius</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="cornerImageCardHistory" parent="">
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+    </style>
+
+    <style name="cornerImageMusic" parent="">
+        <item name="cornerSize">0dp</item>
+    </style>
+
 </resources>
