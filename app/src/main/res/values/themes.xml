@@ -40,21 +40,18 @@
     <style name="cornerImage" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
     </style>
-    <style name="cornerImage" parent="">
-        <item name="cornerFamily">rounded</item>
+    <style name="cornerImage.cornerImageCardsHome" parent="">
         <item name="cornerSizeTopRight">@dimen/normalRadius</item>
-        <item name="cornerSizeTopLeft">@dimen/normalRadius</item>
-        <item name="cornerSizeBottomRight">0dp</item>
         <item name="cornerSizeBottomLeft">0dp</item>
     </style>
 
-    <style name="cornerImage1" parent="">
-        <item name="cornerFamily">rounded</item>
+    <style name="cornerImageCardHistory" parent="">
         <item name="cornerSizeTopRight">0dp</item>
-        <item name="cornerSizeTopLeft">16dp</item>
-        <item name="cornerSizeBottomRight">0dp</item>
         <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
     </style>
 
     <style name="cornerImageMusic" parent="">

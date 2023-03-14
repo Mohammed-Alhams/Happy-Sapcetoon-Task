@@ -12,7 +12,7 @@
         android:theme="@style/Theme.HappySapcetoonTask"
         tools:targetApi="31">
         <activity
-            android:name=".HomeActivity"
+            android:name=".HistoryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,8 +21,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HistoryActivity"
-            android:exported="true">
+            android:name=".HomeActivity"
+            android:exported="true"/>
 
     </application>
 </manifest>

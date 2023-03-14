@@ -52,7 +52,7 @@
         android:layout_marginEnd="@dimen/smallSpace"
         android:layout_marginBottom="@dimen/midSpace"
         android:gravity="start"
-        android:text="excitement and mystery specializes in showcasing fast-paced actionseries, fighting series and..."
+        android:text="@string/excitement_and_mystery_specializes_in_showcasing_fast_paced_actionseries_fighting_series_and"
         android:textColor="@color/colorBody"
         android:textSize="@dimen/textBody"
         app:layout_constraintStart_toStartOf="@id/title"
