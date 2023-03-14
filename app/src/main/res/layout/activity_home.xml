@@ -1,197 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:scrollbars="none">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".HomeActivity"
-        android:orientation="vertical"
-        android:background="@color/backgroundColor">
-
-        <include
-            layout="@layout/app_bar" />
-
-        <include
-            layout="@layout/scroll_images" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/scrollView"
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginStart="@dimen/spaceNormal"
-            android:layout_marginEnd="@dimen/spaceNormal"
-            android:layout_marginTop="@dimen/largeSpace"
-            android:layout_marginBottom="@dimen/smallSpace">
+            android:layout_height="match_parent"
+            android:background="@color/backgroundColor"
+            android:orientation="vertical"
+            tools:context=".HomeActivity">
 
-            <TextView
-                android:layout_width="0dp"
+            <include layout="@layout/app_bar" />
+
+            <include layout="@layout/scroll_images" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="@string/spacetoonPlanet"
-                android:textColor="@color/colorTitle"
-                android:textSize="@dimen/sizeHeaderText"/>
+                android:layout_marginStart="@dimen/spaceNormal"
+                android:layout_marginTop="@dimen/largeSpace"
+                android:layout_marginEnd="@dimen/spaceNormal"
+                android:layout_marginBottom="@dimen/smallSpace"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/spacetoonPlanet"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/sizeHeaderText" />
+
+            </LinearLayout>
+
+            <include layout="@layout/scroll_planets" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spaceNormal"
+                android:layout_marginTop="@dimen/largeSpace"
+                android:layout_marginEnd="@dimen/spaceNormal"
+                android:layout_marginBottom="@dimen/smallSpace"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/series"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/sizeHeaderText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:lineHeight="@dimen/spaceNormal"
+                    android:text="@string/showMore"
+                    android:textColor="@color/colorBody"
+                    android:textSize="@dimen/textBody" />
+
+            </LinearLayout>
+
+
+            <include layout="@layout/scroll_cards" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spaceNormal"
+                android:layout_marginTop="@dimen/largeSpace"
+                android:layout_marginEnd="@dimen/spaceNormal"
+                android:layout_marginBottom="@dimen/smallSpace"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/films"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/sizeHeaderText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:lineHeight="@dimen/spaceNormal"
+                    android:text="@string/showMore"
+                    android:textColor="@color/colorBody"
+                    android:textSize="@dimen/textBody" />
+
+            </LinearLayout>
+
+            <include layout="@layout/scroll_cards_filmes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spaceNormal"
+                android:layout_marginTop="@dimen/largeSpace"
+                android:layout_marginEnd="@dimen/spaceNormal"
+                android:layout_marginBottom="@dimen/smallSpace"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="The most visited planet"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/sizeHeaderText" />
+
+
+            </LinearLayout>
+
+            <include layout="@layout/card_most_visited" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spaceNormal"
+                android:layout_marginTop="@dimen/largeSpace"
+                android:layout_marginEnd="@dimen/spaceNormal"
+                android:layout_marginBottom="@dimen/smallSpace"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/spacetoon_heros"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/sizeHeaderText" />
+
+
+            </LinearLayout>
+
+            <include layout="@layout/heros" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spaceNormal"
+                android:layout_marginTop="@dimen/largeSpace"
+                android:layout_marginEnd="@dimen/spaceNormal"
+                android:layout_marginBottom="@dimen/smallSpace"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/music"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/sizeHeaderText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:lineHeight="@dimen/spaceNormal"
+                    android:text="@string/showMore"
+                    android:textColor="@color/colorBody"
+                    android:textSize="@dimen/textBody" />
+
+            </LinearLayout>
+
+            <include layout="@layout/scroll_music_cards" />
 
         </LinearLayout>
 
-        <include
-            layout="@layout/scroll_planets" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginStart="@dimen/spaceNormal"
-            android:layout_marginEnd="@dimen/spaceNormal"
-            android:layout_marginTop="@dimen/largeSpace"
-            android:layout_marginBottom="@dimen/smallSpace">
+    </ScrollView>
+    <include layout="@layout/navigation_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="@string/series"
-                android:textColor="@color/colorTitle"
-                android:textSize="@dimen/sizeHeaderText"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="end"
-                android:lineHeight="@dimen/spaceNormal"
-                android:text="@string/showMore"
-                android:textColor="@color/colorBody"
-                android:textSize="@dimen/textBody" />
-
-        </LinearLayout>
-
-
-        <include layout="@layout/scroll_cards" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginStart="@dimen/spaceNormal"
-            android:layout_marginEnd="@dimen/spaceNormal"
-            android:layout_marginTop="@dimen/largeSpace"
-            android:layout_marginBottom="@dimen/smallSpace">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="@string/films"
-                android:textColor="@color/colorTitle"
-                android:textSize="@dimen/sizeHeaderText"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="end"
-                android:lineHeight="@dimen/spaceNormal"
-                android:text="@string/showMore"
-                android:textColor="@color/colorBody"
-                android:textSize="@dimen/textBody" />
-
-        </LinearLayout>
-
-        <include
-            layout="@layout/scroll_cards_filmes" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginStart="@dimen/spaceNormal"
-            android:layout_marginEnd="@dimen/spaceNormal"
-            android:layout_marginTop="@dimen/largeSpace"
-            android:layout_marginBottom="@dimen/smallSpace">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="The most visited planet"
-                android:textColor="@color/colorTitle"
-                android:textSize="@dimen/sizeHeaderText"/>
-
-
-        </LinearLayout>
-
-        <include
-            layout="@layout/card_most_visited" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginStart="@dimen/spaceNormal"
-            android:layout_marginEnd="@dimen/spaceNormal"
-            android:layout_marginTop="@dimen/largeSpace"
-            android:layout_marginBottom="@dimen/smallSpace">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="@string/spacetoon_heros"
-                android:textColor="@color/colorTitle"
-                android:textSize="@dimen/sizeHeaderText"/>
-
-
-        </LinearLayout>
-        <include layout="@layout/heros"/>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginStart="@dimen/spaceNormal"
-            android:layout_marginEnd="@dimen/spaceNormal"
-            android:layout_marginTop="@dimen/largeSpace"
-            android:layout_marginBottom="@dimen/smallSpace">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="@string/music"
-                android:textColor="@color/colorTitle"
-                android:textSize="@dimen/sizeHeaderText"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="end"
-                android:lineHeight="@dimen/spaceNormal"
-                android:text="@string/showMore"
-                android:textColor="@color/colorBody"
-                android:textSize="@dimen/textBody" />
-
-        </LinearLayout>
-
-        <include
-            layout="@layout/scroll_music_cards" />
-        <include layout="@layout/navigation_bar"/>
-
-    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
-</ScrollView>
 
 
 
