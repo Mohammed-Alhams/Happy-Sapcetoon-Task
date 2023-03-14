@@ -19,7 +19,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/textBody</item>
         <item name="android:textColor">@color/black_tittle</item>
-        <item name="android:fontFamily">@font/source_sans_pro</item>
         <item name="android:layout_marginStart">@dimen/marginNormal</item>
         <item name="android:layout_marginTop">@dimen/marginNormal</item>
     </style>
@@ -46,7 +45,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/textTittle</item>
         <item name="android:textColor">@color/black_tittle</item>
-        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
         <item name="android:layout_marginStart">@dimen/marginCard</item>
         <item name="android:layout_marginTop">@dimen/marginCard</item>
     </style>
@@ -56,7 +54,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/textBody</item>
         <item name="android:textColor">@color/black_body</item>
-        <item name="android:fontFamily">@font/source_sans_pro</item>
         <item name="android:layout_marginStart">@dimen/marginCard</item>
         <item name="android:layout_marginTop">4dp</item>
     </style>
