@@ -7,7 +7,15 @@
     <string name="season_1_episode_1">Season 1 | episode 1</string>
     <string name="_2_months_ago">2 months ago</string>
     <string name="haidy">Haidy</string>
+    <string name="me_and_my_brother">Me and my brother</string>
+    <string name="dragon_ball">Dragon ball</string>
+    <string name="les_miserables">Les Miserables</string>
+    <string name="batman">Bat man</string>
+    <string name="_1_days_ago">1 days ago</string>
+    <string name="_4_days_ago">4 days ago</string>
     <string name="zomorda_planet">Zomorda planet</string>
+    <string name="adventures_planet">Adventures planet</string>
+
     <string name="_6_days_ago">6 days ago</string>
     <string name="_2_march_2023">2 March 2023</string>
 </resources>

@@ -202,14 +202,14 @@
                 <TextView
                     android:id="@+id/textView22"
                     style="@style/card_text_tittle_style"
-                    android:text="@string/haidy"
+                    android:text="@string/dragon_ball"
                     app:layout_constraintStart_toEndOf="@+id/imageView18"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView23"
                     style="@style/card_text_body_style"
-                    android:text="@string/zomorda_planet"
+                    android:text="@string/action_planet"
                     app:layout_constraintStart_toEndOf="@+id/imageView18"
                     app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -225,7 +225,7 @@
                     style="@style/card_text_body_style"
                     android:layout_marginTop="@dimen/marginCard"
                     android:layout_marginEnd="@dimen/marginCard"
-                    android:text="@string/_6_days_ago"
+                    android:text="@string/_4_days_ago"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -263,14 +263,14 @@
                 <TextView
                     android:id="@+id/textView221"
                     style="@style/card_text_tittle_style"
-                    android:text="@string/haidy"
+                    android:text="@string/batman"
                     app:layout_constraintStart_toEndOf="@+id/imageView181"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView231"
                     style="@style/card_text_body_style"
-                    android:text="@string/zomorda_planet"
+                    android:text="@string/action_planet"
                     app:layout_constraintStart_toEndOf="@+id/imageView181"
                     app:layout_constraintTop_toBottomOf="@+id/textView221" />
 
@@ -286,7 +286,7 @@
                     style="@style/card_text_body_style"
                     android:layout_marginTop="@dimen/marginCard"
                     android:layout_marginEnd="@dimen/marginCard"
-                    android:text="@string/_6_days_ago"
+                    android:text="@string/_1_days_ago"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -324,14 +324,14 @@
                 <TextView
                     android:id="@+id/textView222"
                     style="@style/card_text_tittle_style"
-                    android:text="@string/haidy"
+                    android:text="@string/me_and_my_brother"
                     app:layout_constraintStart_toEndOf="@+id/imageView182"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView232"
                     style="@style/card_text_body_style"
-                    android:text="@string/zomorda_planet"
+                    android:text="@string/adventures_planet"
                     app:layout_constraintStart_toEndOf="@+id/imageView182"
                     app:layout_constraintTop_toBottomOf="@+id/textView222" />
 
@@ -347,7 +347,7 @@
                     style="@style/card_text_body_style"
                     android:layout_marginTop="@dimen/marginCard"
                     android:layout_marginEnd="@dimen/marginCard"
-                    android:text="@string/_6_days_ago"
+                    android:text="@string/_1_days_ago"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -385,14 +385,14 @@
                 <TextView
                     android:id="@+id/textView223"
                     style="@style/card_text_tittle_style"
-                    android:text="@string/haidy"
+                    android:text="@string/les_miserables"
                     app:layout_constraintStart_toEndOf="@+id/imageView183"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView233"
                     style="@style/card_text_body_style"
-                    android:text="@string/zomorda_planet"
+                    android:text="@string/adventures_planet"
                     app:layout_constraintStart_toEndOf="@+id/imageView183"
                     app:layout_constraintTop_toBottomOf="@+id/textView223" />
 
@@ -408,7 +408,7 @@
                     style="@style/card_text_body_style"
                     android:layout_marginTop="@dimen/marginCard"
                     android:layout_marginEnd="@dimen/marginCard"
-                    android:text="@string/_6_days_ago"
+                    android:text="@string/_1_days_ago"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
