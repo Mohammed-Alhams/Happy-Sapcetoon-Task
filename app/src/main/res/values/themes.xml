@@ -24,10 +24,10 @@
         <item name="android:layout_marginTop">@dimen/marginNormal</item>
     </style>
 
-    <style name="linear_style">
+    <style name="constraint_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/cardHeight</item>
-        <item name="android:background">@drawable/linear_background</item>
+        <item name="android:background">@drawable/constraint_background</item>
         <item name="android:layout_marginTop">@dimen/marginNormal</item>
         <item name="android:layout_marginRight">@dimen/marginNormal</item>
         <item name="android:layout_marginLeft">@dimen/marginNormal</item>
