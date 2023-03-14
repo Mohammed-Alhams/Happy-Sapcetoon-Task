@@ -15,21 +15,7 @@
     </style>
 
     <style name="text_view_style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">@dimen/textBody</item>
-        <item name="android:textColor">@color/black_tittle</item>
         <item name="android:fontFamily">@font/sourcesanspro_regular</item>
-        <item name="android:layout_marginStart">@dimen/marginNormal</item>
-    </style>
-
-    <style name="constraint_card_style">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/cardHeight</item>
-        <item name="android:background">@drawable/constraint_background</item>
-        <item name="android:layout_marginTop">@dimen/marginNormal</item>
-        <item name="android:layout_marginRight">@dimen/marginNormal</item>
-        <item name="android:layout_marginLeft">@dimen/marginNormal</item>
     </style>
 
     <style name="cornerImage" parent="">
@@ -47,22 +33,12 @@
     </style>
 
     <style name="card_text_tittle_style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">@dimen/textTittle</item>
         <item name="android:textColor">@color/black_tittle</item>
         <item name="android:fontFamily">@font/sourcesanspro_semibold</item>
-        <item name="android:layout_marginStart">@dimen/marginCard</item>
-        <item name="android:layout_marginTop">@dimen/marginCard</item>
     </style>
 
     <style name="card_text_body_style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">@dimen/textBody</item>
         <item name="android:textColor">@color/black_body</item>
         <item name="android:fontFamily">@font/sourcesanspro_regular</item>
-        <item name="android:layout_marginStart">@dimen/marginCard</item>
-        <item name="android:layout_marginTop">4dp</item>
     </style>
 </resources>
