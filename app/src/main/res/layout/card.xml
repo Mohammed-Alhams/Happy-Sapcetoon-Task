@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_radius"
+    android:paddingBottom="@dimen/smallSpace"
+    android:layout_marginEnd="@dimen/smallSpace">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageCard"
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:background="@drawable/background_radius"
+        android:src="@drawable/spacetoon_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/cornerImage.cornerImageCardsHome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_chip"
+        android:text="@string/review"
+        android:layout_marginTop="@dimen/smallSpace"
+        android:layout_marginStart="@dimen/smallSpace"
+        android:gravity="center"
+        android:lineHeight="@dimen/spaceNormal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/captiorSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/smallSpace"
+        android:layout_marginTop="@dimen/smallSpace"
+        android:gravity="start"
+        android:lineHeight="@dimen/spaceNormal"
+        android:text="@string/textTitle"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/textTitleSize"
+        app:layout_constraintStart_toStartOf="@id/imageCard"
+        app:layout_constraintTop_toBottomOf="@id/imageCard" />
+
+    <TextView
+        android:id="@+id/discripation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smallSpace"
+        android:layout_marginBottom="@dimen/midSpace"
+        android:gravity="start"
+        android:lineHeight="@dimen/spaceNormal"
+        android:text="@string/bodyText"
+        android:textColor="@color/colorBody"
+        android:textSize="@dimen/textBody"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/midSpace"
+        android:layout_marginEnd="@dimen/smallSpace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/discripation"
+        android:src="@drawable/heart" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

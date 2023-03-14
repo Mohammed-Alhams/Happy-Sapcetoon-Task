@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">Happy Sapcetoon Task</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_era_of_friends">The Era Of Friends</string>
+    <string name="_5_minute">5 minute</string>
+    <string name="sandy_bell">Sandy bell</string>
+    <string name="_2_minute">2 minute</string>
+    <string name="play_list">Play list</string>
+    <string name="review">6.8</string>
+    <string name="bodyText">24 Episodes</string>
+    <string name="textTitle">Secret Garden</string>
+    <string name="showMore">Show more</string>
+    <string name="music">Music</string>
+    <string name="films">Films</string>
+    <string name="series">Series</string>
+    <string name="spacetoonPlanet">SpaceToon Planet</string>
+    <string name="titleFilm">Conan Secret</string>
+    <string name="min">128 min</string>
+    <string name="spacetoon_heros">SpaceToon Heros</string>
+    <string name="search_in_history">Search in history...</string>
+    <string name="friday">Friday</string>
+    <string name="conan">Conan</string>
+    <string name="action_planet">Action planet</string>
+    <string name="season_1_episode_1">Season 1 | episode 1</string>
+    <string name="_2_months_ago">2 months ago</string>
+    <string name="haidy">Haidy</string>
+    <string name="me_and_my_brother">Me and my brother</string>
+    <string name="dragon_ball">Dragon ball</string>
+    <string name="les_miserables">Les Miserables</string>
+    <string name="batman">Bat man</string>
+    <string name="_1_days_ago">1 days ago</string>
+    <string name="_4_days_ago">4 days ago</string>
+    <string name="zomorda_planet">Zomorda planet</string>
+    <string name="adventures_planet">Adventures planet</string>
+
+    <string name="_6_days_ago">6 days ago</string>
+    <string name="_2_march_2023">2 March 2023</string>
+    <string name="excitement_and_mystery_specializes_in_showcasing_fast_paced_actionseries_fighting_series_and">excitement and mystery specializes in showcasing fast-paced actionseries, fighting series and...</string>
 </resources>
