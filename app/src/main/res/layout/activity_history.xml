@@ -294,7 +294,7 @@
                 style="@style/constraint_style"
                 android:layout_height="match_parent">
 
-                <ImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageView182"
                     style="@style/image_style"
                     app:shapeAppearanceOverlay="@style/cornerImage"
